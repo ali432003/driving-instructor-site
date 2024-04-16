@@ -29,19 +29,19 @@ const BootstrapTooltip = styled(({ className, ...props }) => (
   [`& .${tooltipClasses.tooltip}`]: {
     color: "black",
     backgroundColor: theme.palette.common.white,
-    width: "100%", // Set width to 100%
-    maxWidth: "none", // Allow the tooltip to expand to full width
-    borderRadius: 0, // Remove border radius for a rectangular shape
-    padding: theme.spacing(2), // Adjust padding as needed
-    boxShadow: theme.shadows[1], // Apply shadow
-    zIndex: theme.zIndex.tooltip, // Set appropriate z-index
+    width: "100%", 
+    maxWidth: "none", 
+    borderRadius: 0, 
+    padding: theme.spacing(2), 
+    boxShadow: theme.shadows[1], 
+    zIndex: theme.zIndex.tooltip, 
   },
 }));
 
 const index = () => {
   const [hidden, setHidden] = useState(window.innerWidth > 1152 ? true : false);
   const [open, setOpen] = React.useState(false);
-  const [col, setCol] = React.useState(false);
+  // const [col, setCol] = React.useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -161,13 +161,201 @@ const index = () => {
       </div>
     );
   };
+  const Tooltip3 = () => {
+    return (
+      <div onMouseLeave={() => setCol(false)} className="flex justify-between gap-x-5">
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            Breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Report a breakdown
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Personal breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Family breakdown cover
+          </li>
+        </div>
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            European breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Electric car breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Business breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+        </div>
+      </div>
+    );
+  };
+  const Tooltip4 = () => {
+    return (
+      <div onMouseLeave={() => setCol(false)} className="flex justify-between gap-x-5">
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            Breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Report a breakdown
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Personal breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Family breakdown cover
+          </li>
+        </div>
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            European breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Electric car breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Business breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+        </div>
+      </div>
+    );
+  };
+  const Tooltip5 = () => {
+    return (
+      <div onMouseLeave={() => setCol(false)} className="flex justify-between gap-x-5">
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            Breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Report a breakdown
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Personal breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Family breakdown cover
+          </li>
+        </div>
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            European breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Electric car breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Business breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+        </div>
+      </div>
+    );
+  };
+  const Tooltip6 = () => {
+    return (
+      <div onMouseLeave={() => setCol(false)} className="flex justify-between gap-x-5">
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            Breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Report a breakdown
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Personal breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Family breakdown cover
+          </li>
+        </div>
+        <div className="list-none flex flex-col text-lg w-[20rem]">
+          <li className="hover:underline cursor-pointer p-1">
+            European breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Electric car breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Business breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+          <li className="hover:underline cursor-pointer p-1">
+            Multicar breakdown cover
+          </li>
+        </div>
+      </div>
+    );
+  };
 
   let tooltip1 = <Tooltip1 />;
   let tooltip2 = <Tooltip2 />;
+  let tooltip3 = <Tooltip3 />;
+  let tooltip4 = <Tooltip4 />;
+  let tooltip5 = <Tooltip5 />;
+  let tooltip6 = <Tooltip6 />;
   return (
     <>
       {hidden ? (
-        <div className={`bg-[${col ? "#fff" : "#ffd300"}] text-black`}>
+        <div className="bg-[#ffd300] text-black">
           <div className="lg:w-[70rem] lg:mx-auto py-3">
             <div className="flex justify-between">
               <p>
@@ -211,7 +399,7 @@ const index = () => {
                       Vehicle maintenance
                     </li>
                   </BootstrapTooltip>
-                  <BootstrapTooltip title={tooltip2}>
+                  <BootstrapTooltip title={tooltip3}>
                     <li
                       onMouseEnter={() => setCol(true)}
                       onMouseLeave={() => setCol(false)}
@@ -219,7 +407,7 @@ const index = () => {
                       New and used cars
                     </li>
                   </BootstrapTooltip>
-                  <BootstrapTooltip title={tooltip2}>
+                  <BootstrapTooltip title={tooltip4}>
                     <li
                       onMouseEnter={() => setCol(true)}
                       onMouseLeave={() => setCol(false)}
@@ -227,7 +415,7 @@ const index = () => {
                       Driving school
                     </li>
                   </BootstrapTooltip>
-                  <BootstrapTooltip title={tooltip2}>
+                  <BootstrapTooltip title={tooltip5}>
                     <li
                       onMouseEnter={() => setCol(true)}
                       onMouseLeave={() => setCol(false)}
@@ -235,7 +423,7 @@ const index = () => {
                       Finance
                     </li>
                   </BootstrapTooltip>
-                  <BootstrapTooltip title={tooltip2}>
+                  <BootstrapTooltip title={tooltip6}>
                     <li
                       onMouseEnter={() => setCol(true)}
                       onMouseLeave={() => setCol(false)}
