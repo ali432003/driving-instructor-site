@@ -189,7 +189,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip1}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       Breakdown
                     </li>
@@ -197,7 +197,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip1}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       Insurance
                     </li>
@@ -206,7 +206,7 @@ const index = () => {
                     {" "}
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)} 
                     >
                       Vehicle maintenance
                     </li>
@@ -214,7 +214,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip2}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       New and used cars
                     </li>
@@ -222,7 +222,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip2}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       Driving school
                     </li>
@@ -230,7 +230,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip2}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       Finance
                     </li>
@@ -238,7 +238,7 @@ const index = () => {
                   <BootstrapTooltip title={tooltip2}>
                     <li
                       onMouseEnter={() => setCol(true)}
-                      
+                      onMouseLeave={() => setCol(false)}
                     >
                       Travel
                     </li>
