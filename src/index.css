@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    background: linear-gradient(360deg, rgba(253,200,0,1) 19%, rgba(255,255,255,1) 100%);
+    transition: ease-in 4ms;
+    }
+.button:hover{
+    background: linear-gradient(90deg, rgba(253,200,0,1) 100%, rgb(228, 224, 25) 19%);
+}
